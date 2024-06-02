@@ -15,7 +15,8 @@ while (True):
         faces_name = input('\n nhap ten khuon mat <return> ==> ')
         print("\n [INFO] Khoi tao camera ...")
         count = 0
-
+        
+        
         while True:
 
             ret, img = cam.read()
